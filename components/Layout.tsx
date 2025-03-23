@@ -51,7 +51,6 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
       
       <main className="flex-grow">{children}</main>
 
-      
       <footer className="bg-slate-800 text-gray-400 py-6">
         <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between gap-4 text-sm">
           <p>&copy; 2025 CPlusPlus Redesign. All rights reserved.</p>
