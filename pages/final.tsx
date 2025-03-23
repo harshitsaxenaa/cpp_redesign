@@ -13,7 +13,7 @@ export default function TutorialsPage() {
             The real C++ tutorials are brewing in the background — one `#include` at a time.
           </p>
           <p className="italic text-sm text-gray-500">
-            // Come back later. The compiler's still warming up.
+             Come back later. The compiler&apos;s still warming up.
           </p>
         </div>
       </section>
