@@ -1,4 +1,3 @@
-// pages/forums.tsx
 import Layout from '@/components/Layout';
 import { FaComments } from 'react-icons/fa';
 
@@ -55,15 +54,15 @@ export default function Forums() {
               key={index}
               className="bg-slate-800 hover:bg-slate-700 hover:scale-[1.02] transition-all duration-300 rounded-2xl p-6 shadow-xl border border-slate-700 animate-fade-in"
             >
-              {/* Badge */}
+              
               <div className={`inline-block px-3 py-1 rounded-full text-xs font-semibold mb-3 ${forum.color}`}>
                 {forum.name}
               </div>
 
-              {/* Description */}
+              
               <p className="text-slate-300 text-sm mb-4">{forum.description}</p>
 
-              {/* Post Count */}
+              
               <div className="flex items-center gap-2 text-sm text-slate-400">
                 <FaComments className="text-slate-400" />
                 <span>{forum.posts.toLocaleString()} posts</span>
@@ -72,7 +71,7 @@ export default function Forums() {
           ))}
         </div>
 
-        {/* Footer Link */}
+        
         <p className="text-center mt-12 text-slate-400 text-sm">
           Explore the full discussions on{' '}
           <a

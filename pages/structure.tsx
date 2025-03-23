@@ -1,4 +1,3 @@
-// pages/structure.tsx
 import Layout from '@/components/Layout';
 
 const codeSections = [
@@ -51,7 +50,7 @@ export default function Structure() {
             ))}
           </div>
 
-          {/* EXPLANATION */}
+         
           <div className="space-y-6">
             {codeSections.map((section, index) => (
               <div key={index} className="bg-gray-800 p-4 rounded-lg shadow hover:shadow-lg transition-all">

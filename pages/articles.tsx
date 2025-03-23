@@ -1,4 +1,3 @@
-// pages/articles.tsx
 import Layout from '@/components/Layout';
 import { FaUser } from 'react-icons/fa';
 import Link from 'next/link';
@@ -96,7 +95,6 @@ export default function Articles() {
           📚 C++ Articles & Guides
         </h1>
 
-        {/* Categories Filter */}
         <div className="flex flex-wrap justify-center gap-3 mb-12">
           {allCategories.map((category, idx) => (
             <button
@@ -113,7 +111,7 @@ export default function Articles() {
           ))}
         </div>
 
-        {/* Articles */}
+        
         <div className="max-w-6xl mx-auto grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredArticles.map((article, index) => (
             <Link

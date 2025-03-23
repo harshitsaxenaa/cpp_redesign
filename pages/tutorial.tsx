@@ -37,7 +37,7 @@ export default function TutorialsPage() {
             </nav>
           </aside>
 
-          {/* Main Tutorial Description */}
+          
           <main className="md:col-span-3 space-y-6">
             <h1 className="text-4xl font-bold mb-4">C++ Tutorials</h1>
             <p className="text-lg text-gray-300">

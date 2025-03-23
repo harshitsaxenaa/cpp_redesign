@@ -5,7 +5,7 @@ import Layout from '@/components/Layout';
 export default function HomePage() {
   return (
     <Layout>
-      {/* Hero Section */}
+     
       <section className="relative min-h-screen flex items-center justify-center text-center text-white bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 px-4 md:px-10">
         <div className="max-w-4xl space-y-6 animate-fade-in-up">
           <h1 className="text-5xl font-bold leading-tight">Welcome to C++ Resources Network</h1>
@@ -21,7 +21,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Quick Access Links */}
+      
       <section className="py-20 bg-slate-950 text-white">
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-3xl font-bold mb-10 text-center">Explore C++ Content</h2>
@@ -41,7 +41,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Sidebar Section */}
+      
       <section className="bg-slate-900 py-14">
         <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-10">
           <div className="md:col-span-2">
